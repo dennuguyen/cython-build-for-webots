@@ -67,7 +67,7 @@ py -m pip install -r requirements.txt
     <tr>
         <td rowspan="1">Compiling <code>.pyx</code> files</td>
         <td rowspan="1">Bash: <code>python3 setup.py build_ext</code><br>Windows: <code>py setup.py build_ext</code></td>
-        <td rowspan="1">Ubuntu 18.04 WSL, </td>
+        <td rowspan="1">Ubuntu 18.04 WSL, Windows 10 </td>
         <td>cython</td>
         <td>Bash: <code>pip install cython</code><br>Windows: <code>py -m pip install cython</code></td>
         <td></td>
