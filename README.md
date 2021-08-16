@@ -178,3 +178,20 @@ The following lines must be added to the top of `python3.7/windows/include/pycon
 See this issue: https://github.com/cython/cython/issues/3405
 
 Also check your code to safe-guard against dividing by zero cases.
+
+### Why should I have these comments at the top of my `.pyx` file?
+
+This is for Cython to determine what Python language is being used.
+```
+# cython: language_level=3
+```
+
+This is to allow implicit conversion of C/C++ strings to Python.
+```
+# cython: c_string_type=unicode, c_string_encoding=utf8
+```
+
+This is to force Cython to compile using C++ standard libraries.
+```
+# distutils: language=c++
+```
