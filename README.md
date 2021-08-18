@@ -93,10 +93,6 @@ py -m pip install -r requirements.txt
 </tbody>
 </table>
 
-### NOTE
-
-This build won't work for Mac users because there is currently no Python3.7 header and lib files.
-
 ## Run Instructions
 
 1. Select the desired controller file in Webots.
