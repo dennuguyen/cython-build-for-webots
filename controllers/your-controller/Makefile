@@ -22,7 +22,7 @@ else
         LIB := libpython3.7m.so
     endif
     ifeq ($(UNAME_S),Darwin)
-        DETECTED_OS := -D macos
+        DETECTED_OS := macos
         LIB := python3.7m
     endif
 endif
